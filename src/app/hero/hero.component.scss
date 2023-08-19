@@ -1,0 +1,134 @@
+.cta-container {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+
+    p {
+        text-align: center;
+        color: rgb(24,67,156);
+    }
+
+    .span1 {
+        font-weight: 700;
+    }
+
+    .span2 {
+        font-size: 2.2vw;
+        font-weight: 700;
+    }
+
+    .span3 {
+        font-size: 1.3vw;
+    }
+
+    .cta-btn {
+        background-color: rgb(24,67,156);
+        color: white;
+        display: block;
+        width: 12rem;
+        height: 4rem;
+        margin: auto;
+        font-size: 1.1vw;
+        border-radius: 30px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.recent-title {
+    color: rgb(24,67,156);
+    font-weight: 600;
+    font-size: 1.1vw;
+    padding-left: 16%;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 70%;
+}
+
+img {
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.post-container {
+    margin-right: 3rem;
+}
+
+.hero-post-data p{
+    color: rgb(24,67,156);
+}
+
+.post-container img {
+    width: 44vw;
+    border-radius: 0px;
+    margin-bottom: 1rem;
+    box-shadow: 10px 8px 0px 10px rgb(24,67,156);
+    -webkit-box-shadow: 10px 8px 0px 10px rgb(24,67,156);
+    -moz-box-shadow: 10px 8px 0px 10px rgb(24,67,156);
+    
+}
+
+.hero-post-data {
+    width: 100%;
+}
+
+.hero-post-title { 
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.hero-post-date {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.side-posts-list li {
+    margin-bottom: 2rem;
+}
+
+.hero-post-data {
+    width: 80%;
+    margin-top: 1rem;
+
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
+
+.side-img {
+    margin-right: 1rem;
+    border: 2px solid rgb(24,67,156);
+}
+
+.side-user {
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    border-radius: .2rem;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 0.9vw;
+}
+
+.side-post-data p {
+    color: rgb(24,67,156);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.side-title {
+    font-weight: 700;
+    font-size: 1.2vw;
+    cursor: pointer;
+}

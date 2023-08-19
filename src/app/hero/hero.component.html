@@ -1,0 +1,72 @@
+
+<div class="cta-container container">
+    <p class="span1">our blog</p>
+    <p class="span2">NAME <span class="journal">journal</span></p>
+    <p class="span3">
+        Strat sharing your experience with others and get familiar to 
+        other points of view
+    </p>
+
+    <button class="btn cta-btn">
+        Signup for Free
+    </button>
+</div>
+
+
+<p class="recent-title">
+    Recent Blog Posts
+</p>
+
+<div class="container d-lg-flex ">
+    <div class="post-container w-50">
+        <img
+        class="img-fluid"
+        src="{{ heroPost.image }}" alt="hero-post-img">
+
+        <div class="hero-post-data">
+            <p class="hero-post-title">
+                {{ heroPost.name }}
+            </p>
+
+            <p class="hero-post-description">
+                {{ heroPost.abstract }}
+            </p>
+
+            <p class="hero-post-date">
+                {{ heroPost.created_at }}
+            </p>
+        </div>
+    </div>
+
+    <div class="side-post-container w-50">
+        <ul class="side-posts-list" 
+        *ngFor="let i of sidePosts">
+    
+            <li class="d-flex">
+
+                <img
+                class="side-img image-fluid w-50"
+                src="{{ i.image }}" alt="">
+
+                <div class="side-post-data w-50">
+
+                    <p class="side-user">
+                        {{ i.user.username }}
+                        &nbsp;&nbsp;
+                        {{ i.created_at }}
+                    </p>
+
+                    <p class="side-title">
+                        {{ i.name }}
+                    </p>
+
+                    <p class="side-description">
+                        {{ i.abstract }}
+                    </p>
+                </div>
+    
+            </li>
+        </ul>
+    </div>
+    
+</div>
